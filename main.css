@@ -1,0 +1,176 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+}
+.btn {
+    display: inline-block;
+    background-color: #070707;
+    padding: 7px 22px;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: #fff;
+}
+.btn:hover, .btn:focus{
+    background-color: rgb(44, 42, 42);
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+} 
+.btn:active{
+    position: relative;
+    top: 1px;
+    background-color: #070707;
+
+}
+/*Header*/
+.header{
+    background: #F1F1F1;
+    padding-top: 46px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+.logo{
+    position: relative;
+    padding: 0 12px 3px ;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+    line-height: 1;
+}
+/*Создание точки */
+.logo::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    border-radius: 50%;
+}
+/*NAV*/
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-link {
+    color: #000;
+}
+.nav-link.active{
+    color: #606060;
+}
+/*HEADER COTENT*/
+.header-content{
+    margin-top: 124px;
+    width: 500px;
+}
+.header-row{
+    display: flex; justify-content: space-between;
+    column-gap: 30px;
+}
+.header-heading{
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.header-content p{
+    line-height: 2;
+}
+/*SERVICE*/
+.services {
+    padding: 0 90px;
+}
+.container {
+}
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+.services-card {
+}
+.service-card-img {
+    margin-top: 30px;
+}
+.service-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.services-card p{
+    line-height: 2;
+}
+
+/*PORTFOLIO*/
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px;
+}
+.container {
+}
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+}
+.project + .project{
+    margin-top: 90px;
+}
+.project-img {
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 18px;
+}
+.project-title a{
+    color: #000;
+    text-decoration:underline;
+}
+
+/*FOOTER*/
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+.container {
+    
+}
+.contacts-title {
+    margin-bottom: 40px;
+}
+.title-1 {
+}
+.contacts-contact {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+}
+.contacts-footer {
+}
